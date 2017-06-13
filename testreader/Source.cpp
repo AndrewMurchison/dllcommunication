@@ -9,8 +9,7 @@ extern "C"
 
 	__declspec(dllexport) int add() {
 		int a = 5;
-		int b = 7;
-		int c = 15;
+		int b = 7;	
 		return a + b;
 	}
 }
